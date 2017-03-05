@@ -1,4 +1,4 @@
-create external table if not exists user_dimension (
+create table if not exists log.user_dimension (
  uid STRING,
  name STRING,
  gender STRING,
@@ -6,5 +6,5 @@ create external table if not exists user_dimension (
  province STRING
 )ROW FORMAT DELIMITED
  FIELDS TERMINATED BY ','
- location 'hdfs://bigdata:9000/warehouse/user_dimension'
+-- location 'hdfs://bigdata:9000/warehouse/user_dimension'
  ;

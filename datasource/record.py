@@ -4,9 +4,9 @@
 from faker import Factory
 import random,sys,time,uuid
 
-USER_FILE="/home/bigdata/datasource/user.list"
-BRAND_FILE="/home/bigdata/datasource/brand.list"
-RECORD_FILE="/home/bigdata/datasource/record.list"
+USER_FILE="/develop/hadoop-tutorial/labs/hadooptraining/datasource/user.list"
+BRAND_FILE="/develop/hadoop-tutorial/labs/hadooptraining/datasource/brand.list"
+RECORD_FILE="/develop/hadoop-tutorial/labs/hadooptraining/datasource/record.list"
 
 WEBSITE_LIST=("TAOBAO","TIANMAO","JUHUASUAN","TIANMAOCHAOSHI")
 EXPRESS_LIST=("SHENTONG","SHUNFENG","EMS","YUANTONG","YUNDA","ZHONGTONG")

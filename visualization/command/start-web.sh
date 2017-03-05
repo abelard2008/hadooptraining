@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python /home/bigdata/visualization/py-echarts/main.py
+python /develop/hadoop-tutorial/labs/hadooptraining/visualization/py-echarts/main.py
