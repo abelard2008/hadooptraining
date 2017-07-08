@@ -42,4 +42,4 @@ def index():
     return render_template("main.html", **render)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='192.168.90.203', debug=True)

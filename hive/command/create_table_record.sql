@@ -1,4 +1,4 @@
-create database log;
+--create database log;
 create table if not exists log.record (
  rid STRING,
  uid STRING,
